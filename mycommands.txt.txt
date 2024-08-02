@@ -1,0 +1,59 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! httpsaka.msPSWindows
+
+PS Chomework git init
+Initialized empty Git repository in Chomework.git
+PS Chomework git status
+On branch master
+
+No commits yet
+
+nothing to commit (createcopy files and use git add to track)
+PS Chomework git status
+On branch master
+
+No commits yet
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        test1.txt
+
+nothing added to commit but untracked files present (use git add to track)
+PS Chomework git add .
+PS Chomework git commit -m add a file
+[master (root-commit) 0d3deb8] add a file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test1.txt
+PS Chomework git log
+commit 0d3deb8aea351ac1860b7f7c779400cdf5cbd0f9 (HEAD - master)
+Author Ally Mech allison.mcgill@liferay.com
+Date   Fri Aug 2 101631 2024 +0900
+
+    add a file
+PS Chomework git new-branch
+git 'new-branch' is not a git command. See 'git --help'.
+
+The most similar command is
+        show-branch
+PS Chomework new-branch
+new-branch  The term 'new-branch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path
+is correct and try again.
+At line1 char1
++ new-branch
++ ~~~~~~~~~~
+    + CategoryInfo           ObjectNotFound (new-branchString) [], CommandNotFoundException
+    + FullyQualifiedErrorId  CommandNotFoundException
+
+PS Chomework git branch
+ master
+PS Chomework git branch New_branch
+PS Chomework git check New_branch
+git 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+PS Chomework git checkout New_branch
+Switched to branch 'New_branch'
+PS Chomework
